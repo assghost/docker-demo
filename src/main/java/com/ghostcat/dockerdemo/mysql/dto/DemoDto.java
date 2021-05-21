@@ -1,4 +1,4 @@
-package com.ghostcat.dockerdemo.dto;
+package com.ghostcat.dockerdemo.mysql.dto;
 
 import lombok.*;
 

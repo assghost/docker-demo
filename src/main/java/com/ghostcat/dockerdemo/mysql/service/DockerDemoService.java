@@ -1,9 +1,9 @@
-package com.ghostcat.dockerdemo.service;
+package com.ghostcat.dockerdemo.mysql.service;
 
-import com.ghostcat.dockerdemo.dto.DemoDto;
-import com.ghostcat.dockerdemo.entity.Demo;
-import com.ghostcat.dockerdemo.repository.DockerDemoMapper;
-import com.ghostcat.dockerdemo.vo.DemoVo;
+import com.ghostcat.dockerdemo.mysql.dto.DemoDto;
+import com.ghostcat.dockerdemo.mysql.entity.Demo;
+import com.ghostcat.dockerdemo.mysql.repository.DockerDemoMapper;
+import com.ghostcat.dockerdemo.mysql.vo.DemoVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

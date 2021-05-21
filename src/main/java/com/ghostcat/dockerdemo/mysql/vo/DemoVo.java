@@ -1,6 +1,6 @@
-package com.ghostcat.dockerdemo.vo;
+package com.ghostcat.dockerdemo.mysql.vo;
 
-import com.ghostcat.dockerdemo.entity.Demo;
+import com.ghostcat.dockerdemo.mysql.entity.Demo;
 import lombok.*;
 
 @Getter

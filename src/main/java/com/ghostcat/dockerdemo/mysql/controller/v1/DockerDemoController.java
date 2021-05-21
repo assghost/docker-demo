@@ -1,8 +1,8 @@
-package com.ghostcat.dockerdemo.controller.v1;
+package com.ghostcat.dockerdemo.mysql.controller.v1;
 
-import com.ghostcat.dockerdemo.dto.DemoDto;
-import com.ghostcat.dockerdemo.service.DockerDemoService;
-import com.ghostcat.dockerdemo.vo.DemoVo;
+import com.ghostcat.dockerdemo.mysql.dto.DemoDto;
+import com.ghostcat.dockerdemo.mysql.service.DockerDemoService;
+import com.ghostcat.dockerdemo.mysql.vo.DemoVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author AssGhost
  */
 @RestController
-@RequestMapping("api/v1/demo")
+@RequestMapping("api/v1/mysql/")
 public class DockerDemoController {
 
     @Autowired

@@ -1,4 +1,4 @@
-package com.ghostcat.dockerdemo.entity;
+package com.ghostcat.dockerdemo.mysql.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

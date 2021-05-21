@@ -3,6 +3,6 @@ server:
 
 spring:
   application:
-    name: docker-demo
+    name: docker-simple
   profiles:
     active: dev

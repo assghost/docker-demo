@@ -2,7 +2,7 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://ghostcat-docker-mysql-5.7:3306/docker-demo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong
+    url: jdbc:mysql://ghostcat-docker-mysql-5.7:3306/docker-simple?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong
     username: root
     password: 123456
     hikari:
@@ -21,3 +21,11 @@ spring:
       # 数据库连接超时时间,默认30秒，即30000
       connection-timeout: 30000
       connection-test-query: SELECT 1
+  # rabbitmq 配置
+  rabbitmq:
+    addresses: ghostcat-docker-rabbitmq
+    port: 5672
+    username: admin
+    password: admin
+    publisher-confirm-type: correlated
+    publisher-returns: true
